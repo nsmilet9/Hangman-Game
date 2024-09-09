@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  alert {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000;
+    background-color: #000000;
+    padding: 10px;
+    border: 1px solid #d42222;
+    border-radius: 5px;
+  }
+  
+  prompt {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    background-color: #580e0e;
+    padding: 10px;
+    border: 1px solid #bb1818;
+    border-radius: 5px;
+  }
+
+ element {
+    background-color: rgb(176, 197, 150);
+ }
+  

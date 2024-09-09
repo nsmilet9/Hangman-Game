@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1: More Words
+
+var words = ["javascript", "array", "object", "function", "loop", "conditional", "variable", "data", "type", "operator"];
+//2: Capital Letters
+
+var guess = prompt("Guess a letter").toLowerCase();
+
+//3: Limiting Guesses
+
+var guessesRemaining = 10;
+
+while (remainingLetters > 0 && guessesRemaining > 0) {
+  // game logic here
+  guessesRemaining--;
+}
+
+//4
+for (var i = 0; i < answerArray.length; i++) {
+  if (answerArray[i] === guess) {
+    if (answerArray[i] === "_") {
+      remainingLetters--;
+    }
+    answerArray[i] = guess;
+  }
+}
+
+
+    </script>
+</body>
+</html>
